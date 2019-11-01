@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Nehesh Sakpal\AppData\Local\Temp\testng-eclipse-1829288997\testng-customsuite.xml</span>
+                    <span>C:\Users\Nehesh Sakpal\AppData\Local\Temp\testng-eclipse--857858411\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.TestCases.Testcase1_Actitime" class="method navigator-link" hash-for-method="login({Iteration=1.0, First_Name=Neha, Last_Name=parab})">login({Iteration=1.0, First_Name=Neha, Last_Name=parab})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.TestCases.Testcase_2" class="method navigator-link" hash-for-method="login({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=para...)">login({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=para...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -120,26 +120,24 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.TestCases.Testcase1_Actitime</span>
+              <span class="class-name">com.TestCases.Testcase_2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login({Iteration=1.0, First_Name=Neha, Last_Name=parab})">
-                  </a> <!-- login({Iteration=1.0, First_Name=Neha, Last_Name=parab}) -->
+                  <a name="login({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=para...)">
+                  </a> <!-- login({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=para...) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">({Iteration=1.0, First_Name=Neha, Last_Name=parab})</span>
-                  <div class="stack-trace">java.io.FileNotFoundException: C:\Users\Nehesh Sakpal\eclipse-workspace\ACTITIME_BUILD\src\test\resources\screenShotss\ScreenShot____2019.10.11.12.36.14.png (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:299)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:238)
-	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:188)
-	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
-	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
-	at com.TESTBASE.Actitime_TestBase.screenShots(Actitime_TestBase.java:109)
-	at com.TESTBASE.Actitime_TestBase.passLogStatus(Actitime_TestBase.java:140)
-	at Pages.Actitime_login_page.createAnAccount(Actitime_login_page.java:18)
-	at com.TestCases.Testcase1_Actitime.login(Testcase1_Actitime.java:19)
+                  <span class="parameters">({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=parab})</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [actiTIME - Time Tracking Software for Boosting Your Business] but found [actiTIME - Login]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at Pages.Actitime_home_page.createAnTask(Actitime_home_page.java:16)
+	at com.TestCases.Testcase_2.login(Testcase_2.java:17)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -174,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nehesh Sakpal\AppData\Local\Temp\testng-eclipse-1829288997\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Nehesh Sakpal\AppData\Local\Temp\testng-eclipse--857858411\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -183,7 +181,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.TestCases.Testcase1_Actitime&quot;/&gt;
+      &lt;class name=&quot;com.TestCases.Testcase_2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -226,13 +224,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'com.TestCases.Testcase1_Actitime')
-data.setCell(0, 3, 907);
+data.setCell(0, 2, 'com.TestCases.Testcase_2')
+data.setCell(0, 3, 68);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 907 ms</span>
+              <span class="suite-total-time">Total running time: 68 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,28 +256,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.TestCases.Testcase1_Actitime</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.TestCases.Testcase_2</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">testsite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">launchBrowser</span>
-                <span class="method-start">259 ms</span>
+                <span class="method-start">766 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">login({Iteration=1.0, First_Name=Neha, Last_Name=parab})</span>
-                <span class="method-start">18138 ms</span>
+                <span class="method-name">login({Email_id=neheshsakp23@gmail.com, Iteration=1.0, Company_Name=Wipro, First_Name=neha, Last_Name=para...)</span>
+                <span class="method-start">23428 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">close</span>
-                <span class="method-start">19056 ms</span>
+                <span class="method-start">23530 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
-                <span class="method-name">endTest</span>
-                <span class="method-start">23202 ms</span>
+                <span class="method-name">writeToExtentReport</span>
+                <span class="method-start">28680 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
